@@ -10944,3 +10944,29 @@ header.masthead .post-heading .meta a {
       margin-bottom: 1rem;
   }
 }
+
+.text-justify {
+  text-align: justify;
+}
+
+.member {
+  margin-bottom: 2rem; /* Space between each member's section */
+}
+
+.member img {
+  width: 100%; /* Adjust if necessary */
+  margin-bottom: 1rem; /* Space below the image */
+}
+
+.member h3 {
+  margin-top: 0; /* Adjust if necessary */
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .member img {
+      width: 100%; /* Full width on smaller screens */
+      margin-bottom: 0.5rem;
+  }
+}
+
