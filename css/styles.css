@@ -10953,9 +10953,17 @@ header.masthead .post-heading .meta a {
   margin-bottom: 2rem; /* Space between each member's section */
 }
 
-.member img {
-  width: 100%; /* Adjust if necessary */
-  margin-bottom: 1rem; /* Space below the image */
+.member-image {
+  width: 150px; /* Adjust to the size you want */
+  height: 150px; /* Same as width for a square */
+  object-fit: cover; /* Cover the square area without stretching */
+  border-radius: 0.25rem; /* Slight rounding of corners */
+}
+
+.member-description {
+  font-size: 0.9rem; /* Smaller font size */
+  line-height: 1.4; /* Reduced line-height */
+  text-align: justify; /* Justified text */
 }
 
 .member h3 {
